@@ -19,18 +19,3 @@
     background-color: var(--secondary-color);
 }
 
-.bg_1_img {
-    background-color: var(--1_img_background-color);
-}
-
-.bg_2_img {
-    background-color: var(--2_img_background-color);
-}
-
-.bg_3_img {
-    background-color: var(--3_img_background-color);
-}
-
-.bg_4_img {
-    background-color: var(--4_img_background-color);
-}

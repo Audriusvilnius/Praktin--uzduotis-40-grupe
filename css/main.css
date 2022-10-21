@@ -1,8 +1,43 @@
-main{
-width: 100%;
+body {
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+}
+body > main{
 height: 100%;
+padding: 50px;
+margin-block: 30px;
 
 }
+img{
+    border-radius: 5px;
+    
+}
+h2 {
+    color: var(--second-color);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10%;
+    font-size: 35px;
+
+}
+
+p {
+    text-align: center;
+    line-height: 130%;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    padding-inline: 15px;
+    width: 30%;
+}
+/* .colum-2{
+    width: 50%;
+
+} */
 span{
     display: flex;
     width: 25px;
@@ -14,8 +49,8 @@ span{
     border: 6px solid;
     font-size: 20px;
     border-radius: 109px;
-    color: #e05e46;
     justify-content: center;
+    transform: translateX(-50%) translateY(50%);
 
 }
 .conteiner {
@@ -24,22 +59,18 @@ span{
     gap: 30px 10px;
 
 }
-
-h2 {
-    color: var(--second-color);
-    text-transform: uppercase;
-    text-align: center;
-
+.number-topic-1{
+    color: #70c0c9;
+}.number-topic-2{
+    color: #4074bd;
+}.number-topic-3{
+    color: #e05e46;
+}.number-topic-4{
+    color: #919191;
 }
 
-p {
-  
-    text-align: justify;
-}
 
-div {
-    padding-inline: 15px;
-}
+
 
 .image1 {
     background-color: #70c0c9;
@@ -60,3 +91,13 @@ div {
     background-color: #919191;
     aspect-ratio: 1/1;
 }
+
+@media (max-width: 1300px) {
+    .conteiner  {
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: flex-start;
+        justify-content: space-around;
+        
+    }}
