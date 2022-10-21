@@ -1,0 +1,24 @@
+{
+  "name": "praktin--u-duotis-40-grupe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --port=4010 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Audriusvilnius/Praktin--u-duotis-40-grupe.git"
+  },
+  "keywords": [],
+  "author": "Audrius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Audriusvilnius/Praktin--u-duotis-40-grupe/issues"
+  },
+  "homepage": "https://github.com/Audriusvilnius/Praktin--u-duotis-40-grupe#readme",
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  }
+}
