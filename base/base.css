@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #ffffff;
+    --second-color: #e25f4f;
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-primary {
+    background-color: var(--primary-color)
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg_1_img {
+    background-color: var(--1_img_background-color);
+}
+
+.bg_2_img {
+    background-color: var(--2_img_background-color);
+}
+
+.bg_3_img {
+    background-color: var(--3_img_background-color);
+}
+
+.bg_4_img {
+    background-color: var(--4_img_background-color);
+}
