@@ -13,6 +13,7 @@ body>main {
 
 img {
     border-radius: 5px;
+    padding: 20%;
 
 }
 
@@ -204,6 +205,6 @@ span {
 
     div {
         padding-inline: 15px;
-        width: 50%;
+        width: calc(50% - 20px)
     }
 }
